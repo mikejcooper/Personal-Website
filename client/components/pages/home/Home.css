@@ -1,37 +1,8 @@
-.home .header {
-  font-weight: bold;
-  color: green;
-}
-
-.home.label-default{
-    background-color: red;
-}
-
-.home .events-view-container1 {
-	display: flex;
-	width: 100%;
-	background-color:gainsboro;
-	justify-content: center;
-}
-
-.home .events-view-container2{
-	justify-content: center;
-	width: 80%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
-
 
 .home .my-image{
 	position: relative;
 	width: inherit;
 	height: 350px;
-	background-image: url("http://localhost:2000/images/svg_party.png");
-}
-
-.home .filler {
-	width: inherit;
-	height: 225px;
 }
 
 .home .my-image .svg {

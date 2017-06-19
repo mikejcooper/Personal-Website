@@ -5,7 +5,7 @@ Setup for:
 
 # To run (without docker):
 
-  $ npm install 
+  $ npm install
   $ npm run dev
 
 # To run (with docker):

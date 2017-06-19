@@ -59,6 +59,7 @@ export default {
       actions: 'client/modules/actions',
       reducers: 'client/modules/reducers',
       svgs: 'client/components/svgs',
+      imgs: 'server/imgs'
     },
   },
   imageWebpackLoader: {

@@ -1,6 +1,7 @@
-import React from 'react';
+  import React from 'react';
 import css from './Home.css'
 import { connect } from 'react-redux';
+import background from 'imgs/background.png'
 
 @connect((store) => {
   return {
@@ -10,11 +11,22 @@ class Home extends React.Component {
 
   constructor(){
     super();
+    this.state = { width: '0', height: '0' };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     this.renderSvg.bind(this);
   }
 
-  componentDidMount(){
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
 
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
   }
 
   renderSvg(){
@@ -36,20 +48,35 @@ class Home extends React.Component {
   render() {
     const containerStyle = {
       // marginTop: "-30px", // Allow children to render without hitting nav bar
-      height: '100%',
-
+      height: this.state.height - 50,
+      overflow: 'hidden',
+      border: 'dashed',
+      // backgroundImage: 'url(' + {back}  + ')'
     };
 
     return (
-      <div class ="home" style={containerStyle}>
-        <div class="my-image">
-          {this.renderSvg()}
-        </div>
-        <div class="events-view-container1">
-          <div class="events-view-container2">
+      <div class ="home">
 
+
+        <div class="page" style={containerStyle}>
+          <img src={background} />
+          {/*<div class="my-image">*/}
+            {/*{this.renderSvg()}*/}
+          {/*</div>*/}
+        </div>
+        <div class="page" style={containerStyle}>
+          <div class="my-image">
+            {this.renderSvg()}
           </div>
         </div>
+        <div class="page" style={containerStyle}>
+          <div class="my-image">
+            {this.renderSvg()}
+          </div>
+        </div>
+
+
+
       </div>
     );
   }

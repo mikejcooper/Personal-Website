@@ -63,7 +63,7 @@ class NavigationBar extends React.Component {
     return (
         <nav class="navbar1 navbar-fixed-top" style = {navOpacity} onScroll={this.handleScroll.bind(this)}>
           <div class="logo-container">
-            <a href="/#"><img class="logo resize-img" src="http://localhost:2000/images/logo_text.png"></img></a>
+            {/*<a href="/#"><img class="logo resize-img" src="http://localhost:2000/images/logo_text.png"></img></a>*/}
           </div>
 
           <div class="search-container">

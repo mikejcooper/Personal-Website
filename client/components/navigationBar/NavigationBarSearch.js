@@ -32,8 +32,8 @@ class NavigationBarSearch extends React.Component {
               {/*<input type="text" class="bar" placeholder=" Search..." ref="textInput" onKeyUp={(event) => this.onSearchBarChange(event)} required/>*/}
             </div>
             <div class="search-button-container flex-centre">
-              <div class="search-button button-red cursor"><a href="search"><img class="search-icon resize-img" src="http://localhost:2000/images/search-icon.png"></img></a>
-              </div>
+              {/*<div class="search-button button-red cursor"><a href="search"><img class="search-icon resize-img" src="http://localhost:2000/images/search-icon.png"></img></a>*/}
+              {/*</div>*/}
             </div>
           </div>
         </div>

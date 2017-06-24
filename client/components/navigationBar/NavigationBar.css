@@ -1,13 +1,10 @@
 /*Variables*/
 
 
-.navbar1{
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-
+.navbar{
   height: 50px;
-  background-color: black;
+
+  background-color: WHITE;
 
   transition: opacity .35s ease-out;
   -moz-transition: opacity .35s ease-out;
@@ -15,24 +12,33 @@
 }
 
 
-.navbar1:hover { /*Overide inline CSS for opacity*/
+.navbar:hover { /*Overide inline CSS for opacity*/
   opacity:1.0 !important;
   transition: opacity .35s ease-in-out;
   -moz-transition: opacity .35s ease-in-out;
   -webkit-transition: opacity .35s ease-in-out;
 }
 
+.name{
+  font-weight: 200;
+}
 
+.navbar .text-color{
+  color: #696969;
+}
+
+.navbar .text-color:hover{
+  color: #080808;
+}
+
+.black-force{
+  color: black!important;
+}
 
 /*------------------------------------------------------*/
 
-.navbar1 .logo-container{
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: flex-start;
+.navbar .logo-container{
   order:1;
-
   flex: 1;
 }
 
@@ -42,43 +48,30 @@
 
 /*------------------------------------------------------*/
 
-.navbar1 .search-container{
-  display: flex;
-  height: 100%;
-  align-items: center;
+.navbar .centre{
   order:2;
+
 }
 
 /*------------------------------------------------------*/
 
-.navbar1 .right-nav-container{
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: flex-end;
+.navbar .right-nav-container{
   order:3;
-
   flex: 1;
-
-
 }
 
 .right-nav-container .right-nav{
-  display: flex;
-  flex-direction:row;
-  height: 100%;
-  align-items: center;
-  justify-content: flex-end;
   margin-right: 14px;
-
 }
 
 .right-nav h4{
-  color: white;
-  font-size: 15px;
+  color: black;
+  font-size: 12px;
+  color:#333;
+
 }
 
-.right-nav .no-line{
+.navbar .no-line{
   text-decoration: none;
 }
 
@@ -105,10 +98,9 @@
   color: white;
 }
 
-.right-nav .svg{
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-  padding:5px;
-  height: 40px;
+
+.margin-left-10{
+  margin-left: 20px;
 }
+
+

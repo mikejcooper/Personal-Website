@@ -1,0 +1,142 @@
+.Contact .top-info{
+    height: 80%;
+}
+
+.Contact .social-media{
+    height: 20%;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+.Contact .icon{
+    height: 70%;
+}
+
+.Contact a{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    float: left;
+    font-size: 1rem;
+    line-height: 50px;
+    color: white;
+    transition: all 250ms ease-in-out;
+}
+
+.Contact a:hover{
+    margin-top: -5px;
+    border-bottom: 4px solid black;
+}
+
+.Contact .fa{
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.Contact #linkedin{
+    background-color: #1D87BE;
+}
+.Contact #linkedin:hover{
+    background-color: #136F9E;
+}
+
+.Contact #google-plus{
+    background-color: #B30000;
+}
+.Contact #google-plus:hover{
+    background-color: #990000;
+}
+
+.Contact #codepen{
+    background-color: #285550;
+}
+.Contact #codepen:hover{
+    background-color: #1F3F3B;
+}
+
+.Contact #stack-overflow{
+    background-color: #CF6300;
+}
+.Contact #stack-overflow:hover{
+    background-color: #AD5300;
+}
+
+.Contact #github{
+    background-color: #000000;
+}
+.Contact #github:hover{
+    background-color: #31333e;
+}
+
+.Contact #facebook{
+    background-color: #3b5998;
+}
+.Contact #facebook:hover{
+    background-color: #233f98;
+}
+
+.Contact #mail{
+    background-color: #ffffff;
+}
+.Contact #mail:hover{
+    background-color: #dee5de;
+}
+
+
+/* Irrelevant Page Layout */
+
+.Contact html{
+    font-size: 62.5%
+}
+
+.Contact html,body{
+    height: 100%;
+}
+
+.Contact body {
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 0;
+}
+
+.Contact body:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.Contact #holder {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10px;
+    font-size: 1rem;
+}
+
+.Contact h1 {
+    margin: 25px 0;
+    font-size: 42px;
+    font-size: 4.2rem;
+    line-height: 42px;
+    line-height: 4.2rem;
+    text-shadow: 0px 2px 0 #FFF,
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF,
+    -2px 3px #616161,
+    2px 3px #616161;
+}
+
+.Contact #divide {
+    margin: 25px 50px;
+    border-top: 1px solid black;
+}
+
+.Contact #social{
+    display: inline-block;
+}

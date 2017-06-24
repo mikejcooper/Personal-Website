@@ -1,0 +1,43 @@
+.About{
+    max-width: 650px;
+}
+
+.About .box    {
+    width: 100%;
+    min-height: 10%;
+}
+
+.width-100px{
+    width: 100px;
+}
+
+ul li{
+    padding-top: 3px;
+}
+
+.margin-bottom-5px{
+    margin-bottom: 5px;
+}
+
+.l-spacing{
+    letter-spacing: 1px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+
+.me-img{
+    width: auto;
+    height: 50px;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.toggleButton{
+    font-size: xx-small;
+}

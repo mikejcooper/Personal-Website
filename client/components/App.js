@@ -5,10 +5,8 @@ import { connect } from "react-redux";
 import css from './App.css';
 
 
-@connect((store) => {
-  return {
-  };
-})
+// Maps dispatcher to props
+@connect()
 class App extends React.Component {
   constructor() {
     super()

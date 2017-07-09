@@ -41,3 +41,21 @@ ul li{
 .toggleButton{
     font-size: xx-small;
 }
+
+.About .info .left{
+    margin-left: -2px;
+}
+
+.About .info-title{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.About .info-caption{
+    font-size: medium;
+    font-weight: 700;
+}
+
+.About .info-description{
+    font-size: smaller;
+}

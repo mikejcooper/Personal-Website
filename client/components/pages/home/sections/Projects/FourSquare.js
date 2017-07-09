@@ -1,41 +1,16 @@
 import React from 'react';
 import css from './FourSquare.css'
-import LawWebsite from 'imgs/lawWebsite.png'
 import Lightbox from './Lightbox'
-
-import img1 from 'imgs/EE.png'
-import img2 from 'imgs/rb.png'
-
-const images = [
-  img1,
-  img2,
-];
-
-const imagesCaptions = [
-  "hello world 1",
-  "hello world 2",
-];
-
-
+import SkillsContainer from '../Containers/SkillsContainer'
 
 
 class FourSquare extends React.Component {
 
   render() {
 
-    let LawCoverStyle = { backgroundImage: 'url(' + LawWebsite + ')' }
-
-
-
     return (
 
       <div class="FourSquares stretch flex flex-column flex-align-items-start width-80">
-
-        <div class="test">
-          <Lightbox images={images} imagesCaptions={imagesCaptions}/>
-        </div>
-
-        <br/>
 
         <div class="title titles stretch-width">More projects</div>
 
@@ -45,21 +20,25 @@ class FourSquare extends React.Component {
 
             <div class="square flex flex-column">
               <div class="top">
-                <Lightbox images={images} imagesCaptions={imagesCaptions} coverImage={LawWebsite}/>
+                <Lightbox images={this.props.images1} imagesCaptions={this.props.imagesCaptions1} coverImage={this.props.coverImage1}/>
               </div>
               <div class="bottom">
-                Reality Bomb is one of the first games of its kind to fuse the real and virtual worlds in a gripping multiplayer mobile game.
-                The real world can be scanned in with a Microsoft Kinect and used as in-game maps.
+                {this.props.description1}
+              </div>
+              <div class="bottom-skills ">
+                <SkillsContainer skills={this.props.skills1} spread={true}/>
               </div>
             </div>
 
             <div class="square flex flex-column">
               <div class="top">
-                <Lightbox images={images} imagesCaptions={imagesCaptions} coverImage={LawWebsite}/>
+                <Lightbox images={this.props.images2} imagesCaptions={this.props.imagesCaptions2} coverImage={this.props.coverImage2}/>
               </div>
               <div class="bottom">
-                Reality Bomb is one of the first games of its kind to fuse the real and virtual worlds in a gripping multiplayer mobile game.
-                The real world can be scanned in with a Microsoft Kinect and used as in-game maps.
+                {this.props.description2}
+              </div>
+              <div class="bottom-skills ">
+                <SkillsContainer skills={this.props.skills2} spread={true}/>
               </div>
             </div>
 
@@ -69,29 +48,31 @@ class FourSquare extends React.Component {
 
             <div class="square flex flex-column">
               <div class="top">
-                <Lightbox images={images} imagesCaptions={imagesCaptions} coverImage={LawWebsite}/>
+                <Lightbox images={this.props.images3} imagesCaptions={this.props.imagesCaptions3} coverImage={this.props.coverImage3}/>
               </div>
               <div class="bottom">
-                Reality Bomb is one of the first games of its kind to fuse the real and virtual worlds in a gripping multiplayer mobile game.
-                The real world can be scanned in with a Microsoft Kinect and used as in-game maps.
+                {this.props.description3}
+              </div>
+              <div class="bottom-skills ">
+                <SkillsContainer skills={this.props.skills3} spread={true}/>
               </div>
             </div>
 
             <div class="square flex flex-column">
               <div class="top">
-                <Lightbox images={images} imagesCaptions={imagesCaptions} coverImage={LawWebsite}/>
+                <Lightbox images={this.props.images4} imagesCaptions={this.props.imagesCaptions4} coverImage={this.props.coverImage4}/>
               </div>
               <div class="bottom">
-                Reality Bomb is one of the first games of its kind to fuse the real and virtual worlds in a gripping multiplayer mobile game.
-                The real world can be scanned in with a Microsoft Kinect and used as in-game maps.
+                {this.props.description4}
+              </div>
+              <div class="bottom-skills ">
+                <SkillsContainer skills={this.props.skills4} spread={true}/>
               </div>
             </div>
 
           </div>
 
         </div>
-
-        <br/>
 
       </div>
 

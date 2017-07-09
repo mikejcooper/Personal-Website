@@ -7,7 +7,7 @@ import School from 'imgs/school.png'
 import Imperial from 'imgs/Imperial.png'
 import EE from 'imgs/EE.png'
 
-import Container from './EduExpContainer'
+import Container from './Containers/EduExpContainer'
 
 
 class Eduction extends React.Component {
@@ -18,7 +18,7 @@ class Eduction extends React.Component {
 
         <br/>
 
-        
+
         <br/>
         <div class="box flex flex-align-items-start flex-column">
           <div class="flex flex-align-items-start flex-row stretch-width">
@@ -38,6 +38,7 @@ class Eduction extends React.Component {
           subTitle="Computer Science, MEng (1st)"
           date="(current) 2014 - 2018"
           location="Bristol, UK"
+          skills = {["Machine Learning", "Cryptography", "Algorithms", "OpenMP", "OpenCL"]}
           description={
             <div>
                 Relevant modules:
@@ -100,6 +101,7 @@ class Eduction extends React.Component {
           subTitle="Mobile Applications Developer"
           date="2014 - 2015 "
           location="Bristol, UK"
+          skills = {["HTML", "CSS", "JavaScript"]}
           description="Created a cross-platform mobile web application for new students to plan and organise social activities.
                   The app was launched on both iOS and Android in 2015 and used by over a thousand students in the first two weeks."
         />
@@ -121,7 +123,7 @@ class Eduction extends React.Component {
 
         <Container
           thumbnail={EE}
-          title="Imperial Tobacco"
+          title="Everything Everywhere"
           subTitle="Technology & Sales Internship"
           date="August, 2013"
           location="Avon, UK"

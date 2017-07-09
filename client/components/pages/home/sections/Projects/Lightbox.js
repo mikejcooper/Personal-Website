@@ -12,6 +12,7 @@ export default class LightboxExample extends Component {
   }
 
   render() {
+
     const imagesCaptions = this.props.imagesCaptions;
     const images = this.props.images;
 

@@ -26,15 +26,49 @@ class About extends React.Component {
             </div>
           </div>
 
-          <div class="flex flex-align-items-start flex-row stretch-width">
-            <div class="flex flex-align-items-start flex-justify-centre width-100px">
-              <img class="me-img img-circle" src={me}/>
+          <div class="flex flex-column">
+            <div class="flex flex-align-items-start flex-row flex-align-items-centre stretch-width">
+              <div class="flex flex-align-items-start flex-justify-centre width-100px">
+                <img class="me-img img-circle" src={me}/>
+              </div>
+              <div class="flex flex-column stretch-width  ">
+
+                <div class="info-title flex white  ">Hey, I'm Mike! </div>
+
+              </div>
             </div>
-            <div class="flex flex-column stretch-width">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+
+           <br/>
+
+            <div class="flex flex-align-items-start flex-row flex-align-items-centre stretch-width">
+              <div class="flex flex-align-items-start flex-justify-centre width-100px">
+                {/*<img class="me-img img-circle" src={me}/>*/}
+              </div>
+              <div class="flex flex-column stretch-width  ">
+
+                <div class="info-caption flex "> I'm a technically-minded, detail oriented software engineer passionate about combining functional code with beautiful design.</div>
+
+                <br/>
+
+
+                <div class="info-description flex flex-row ">
+                  I'm a fourth year student at Northeastern University in Boston studying computer science and interaction design.
+                  I have experience developing and designing software for the web, from simple landing pages to progressive web applications.
+                    I strive to create software that not only functions efficiently under the hood, but also provides intuitive, pixel-perfect user experiences.
+
+                  I love learning new and better ways to create seamless user experiences with clean, efficient, and scalable code.
+                    I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share their
+                    knowledge as much as I want to learn. At the end of the day, my primary goal is to create something beautiful with people that bring out the best in me.
+                  When I'm not in front of a computer screen, I'm probably snowboarding, traveling, petting dogs, or learning a new song on my uke.
+                </div>
+
+
+              </div>
             </div>
           </div>
+
         </div>
+
 
 
         <br/><br/>

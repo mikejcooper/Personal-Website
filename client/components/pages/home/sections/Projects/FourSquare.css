@@ -22,7 +22,15 @@
     padding-top: 15px;
     padding-bottom: 15px;
 
+    overflow: hidden;
+
+
+
     background-color: #fcfcfc;
     font-size: x-small;
 }
 
+.square .bottom-skills{
+    background-color: #fcfcfc;
+    padding: 5px;
+}

@@ -1,20 +1,26 @@
 import React from 'react';
 import css from './Home.css'
 import { connect } from 'react-redux';
+import Lightbox from './sections/Projects/Lightbox'
 import AboutSection from './sections/About'
 import EducationSection from './sections/Eduction'
 import WelcomeSection from './sections/Welcome'
 import ContactSection from './sections/Contact'
-import RealityBombProject from './sections/Projects/RealityBomb'
+import ProjectSection from './sections/Projects'
 import FourSquaresProject from './sections/Projects/FourSquare'
+import OneSquaresProject from './sections/Projects/OneSquare'
+
+import iPhoneMocks from 'imgs/iPhone_mocks.png'
 
 
 import Scroll from 'react-scroll' ;
-import Waypoint from 'react-waypoint';
 
 var Element    = Scroll.Element;
 
 var scrollSpy  = Scroll.scrollSpy;
+
+
+
 
 
 @connect((store) => {
@@ -65,7 +71,6 @@ class Home extends React.Component {
       overflow: 'hidden',
     };
 
-
     return (
       <div class="home">
 
@@ -86,14 +91,9 @@ class Home extends React.Component {
         </Element>
 
 
-
-        {/*<Waypoint onLeave={this.onEnterSection}/>*/}
-
         <Element name="Projects">
-          <div id="about-us" class="page p3 stretch flex flex-column flex-align-items-centre flex-justify-centre">
-            <RealityBombProject/>
-            <FourSquaresProject/>
-            <RealityBombProject/>
+          <div id="about-us" class="page p3">
+            <ProjectSection/>
           </div>
         </Element>
 
@@ -102,7 +102,6 @@ class Home extends React.Component {
             <ContactSection/>
           </div>
         </Element>
-
 
 
       </div>

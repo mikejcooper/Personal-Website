@@ -1,0 +1,40 @@
+.TwoSquares{
+    max-width: 650px;
+}
+
+.TwoSquares-container{
+    height: 325px;
+
+}
+
+.TwoSquares .square-container{
+    height: 100%;
+}
+
+.TwoSquares .square{
+    width: 49%;
+}
+
+.square .top{
+    height: 70%;
+    overflow: hidden;
+}
+
+.square .bottom{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    overflow: hidden;
+
+
+
+    background-color: #fcfcfc;
+    font-size: x-small;
+}
+
+.square .bottom-skills{
+    background-color: #fcfcfc;
+    padding: 5px;
+}

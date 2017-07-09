@@ -7,7 +7,7 @@ import EducationSection from './sections/Eduction'
 import WelcomeSection from './sections/Welcome'
 import ContactSection from './sections/Contact'
 import ProjectSection from './sections/Projects'
-import FourSquaresProject from './sections/Projects/FourSquare'
+import FourSquaresProject from './sections/Projects/TwoSquares'
 import OneSquaresProject from './sections/Projects/OneSquare'
 
 import iPhoneMocks from 'imgs/iPhone_mocks.png'

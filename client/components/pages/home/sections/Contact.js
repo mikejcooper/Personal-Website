@@ -50,8 +50,8 @@ class Contact extends React.Component {
 
         </div>
 
-
         <br/><br/>
+
 
       </div>
     );

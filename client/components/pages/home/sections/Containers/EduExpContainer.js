@@ -70,7 +70,7 @@ class Eduction extends React.Component {
                     ) : (
                       <div></div>
                     )}
-                  <SkillsContainer class="flex" skills={this.props.skills} />
+                  <SkillsContainer style={{paddingBottom: "10px"}} class="flex" skills={this.props.skills} />
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ class Eduction extends React.Component {
           ) : (
             <div style={{paddingTop: "10px"}} class="flex flex-align-items-start flex-row stretch-width">
               <div class="flex flex-align-items-start flex-justify-centre width-100px"></div>
-              <SkillsContainer skills={this.props.skills} />
+              <SkillsContainer style={{paddingBottom: "10px"}} skills={this.props.skills} />
             </div>
 
           )}

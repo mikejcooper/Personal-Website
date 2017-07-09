@@ -53,7 +53,7 @@ class SkillsContainer extends React.Component {
 
       return (
 
-        <div class="flex stretch-width">
+        <div style={this.props.style} class="flex stretch-width">
           {this.handleSkillsProps()}
         </div>
 

@@ -16,10 +16,8 @@ class Eduction extends React.Component {
     return (
       <div class="About flex flex-column flex-space-around flex-align-items-centre stretch">
 
-        <br/>
+        <br/><br/>
 
-
-        <br/>
         <div class="box flex flex-align-items-start flex-column">
           <div class="flex flex-align-items-start flex-row stretch-width">
             <div class="flex flex-align-items-start flex-justify-centre width-100px"></div>
@@ -132,7 +130,6 @@ class Eduction extends React.Component {
                   I also worked on beta tested new phones, reviewing the functionality, usability and any basic security flaws.
                   At the end of the internship I presented my research on the future of mobile devices and carrier services to corporate managers."
         />
-
 
         <br/><br/>
 

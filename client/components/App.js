@@ -1,6 +1,5 @@
 import React from 'react';
 import NavigationBar from './navigationBar/NavigationBar';
-import EventModal from './modals/EventModal/EventModal';
 import { connect } from "react-redux";
 import css from './App.css';
 
@@ -36,7 +35,6 @@ class App extends React.Component {
           <div class="row">
              <div class="col-lg-12">
               <NavigationBar/>
-              <EventModal/>
               <div style={fadeStyle}>
                 {this.props.children}
               </div>

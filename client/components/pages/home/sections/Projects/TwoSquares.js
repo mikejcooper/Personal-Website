@@ -2,7 +2,7 @@ import React from 'react';
 import css from './TwoSquares.css'
 import Lightbox from './Lightbox'
 import SkillsContainer from '../Containers/SkillsContainer'
-
+import OneSquaresProject from './OneSquare'
 
 class TwoSquares extends React.Component {
 
@@ -10,7 +10,7 @@ class TwoSquares extends React.Component {
 
     return (
 
-      <div class="TwoSquares stretch flex flex-column flex-align-items-start width-80">
+      <div class="TwoSquares flex flex-column flex-align-items-start width-80">
 
         {this.props.title ?
           <div class="title titles stretch-width">{this.props.title}</div>
@@ -18,37 +18,31 @@ class TwoSquares extends React.Component {
           <div/>
         }
 
-        <div class="TwoSquares-container flex flex-column flex-space-between stretch">
+        <div class="flex flex-row flex-space-between stretch">
 
-          <div class="square-container flex flex-row flex-space-between">
+            <OneSquaresProject
 
-            <div class="square flex flex-column">
-              <div class="top">
-                <Lightbox images={this.props.images1} imagesCaptions={this.props.imagesCaptions1} coverImage={this.props.coverImage1}/>
-              </div>
-              <div class="bottom">
-                {this.props.description1}
-              </div>
-              <div class="bottom-skills ">
-                <SkillsContainer skills={this.props.skills1} spread={true}/>
-              </div>
-            </div>
+              style={{maxWidth: "320px", height: "250px"}}
+              description={this.props.description1}
+              images={this.props.images1}
+              imagesCaptions={this.props.imagesCaptions1}
+              coverImage={this.props.coverImage1}
+              skills={this.props.skills1}
+            />
 
-            <div class="square flex flex-column">
-              <div class="top">
-                <Lightbox images={this.props.images2} imagesCaptions={this.props.imagesCaptions2} coverImage={this.props.coverImage2}/>
-              </div>
-              <div class="bottom">
-                {this.props.description2}
-              </div>
-              <div class="bottom-skills ">
-                <SkillsContainer skills={this.props.skills2} spread={true}/>
-              </div>
-            </div>
 
-          </div>
+            <OneSquaresProject
+
+              style={{maxWidth: "320px", height: "250px"}}
+              description={this.props.description2}
+              images={this.props.images2}
+              imagesCaptions={this.props.imagesCaptions2}
+              coverImage={this.props.coverImage2}
+              skills={this.props.skills2}
+            />
 
         </div>
+
 
       </div>
 

@@ -1,0 +1,44 @@
+
+.home .page {
+    display: flex;
+    overflow: hidden;
+}
+
+.home .p1{
+    background-color: #4C5364;
+}
+
+.home .p2{
+    background-color: #c26868;
+}
+
+.home .p3{
+    background-color: #e8d2c9;
+
+}
+
+.home .p4{
+    background-color: #e0e0e0;
+}
+
+
+.p1 .svg-title{
+    width: 60%;
+}
+
+/*Integrate into Welcome.js file*/
+
+.p1 .top{
+    height: 30%;
+    width:100%;
+}
+
+.p1 .bottom{
+    height:70%;
+    margin-bottom: 30px;
+}
+
+
+
+
+

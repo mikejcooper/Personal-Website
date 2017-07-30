@@ -1,6 +1,5 @@
 .OneSquare{
-    max-width: 650px;
-    height: 500px;
+
 }
 
 .OneSquare .square-container{
@@ -12,17 +11,24 @@
 }
 
 .OneSquare .square .top{
-    height: 70%;
+    width: 100%;
     overflow: hidden;
 }
 
-.OneSquare .square .bottom{
+
+.OneSquare .square .bottom-text{
+    display:block;
+    /*height: 200px;*/
+
+    overflow: scroll;
+
+
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
 
-    overflow: hidden;
+    /*overflow: hidden;*/
 
 
     background-color: #fcfcfc;
@@ -32,6 +38,8 @@
 .OneSquare .square .bottom-skills{
     background-color: #fcfcfc;
     padding: 5px;
+    min-height: 40px;
+    overflow: hidden;
 }
 
 .OneSquare .iframe{
@@ -47,4 +55,19 @@
     width: 100%;
     height: 0;
     padding-bottom: 57%;
+}
+
+
+
+
+.animate {
+    transform: translateY(15vh);
+    animation: animate 1.4s ease forwards;
+}
+.animate:nth-child(odd) {
+    animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes animate {
+    to { transform: translateY(0); }
 }

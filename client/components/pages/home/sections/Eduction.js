@@ -6,11 +6,17 @@ import Uni from 'imgs/uni.png'
 import School from 'imgs/school.png'
 import Imperial from 'imgs/Imperial.png'
 import EE from 'imgs/EE.png'
+import TapBooks from 'imgs/tapbooks.png'
 
 import Container from './Containers/EduExpContainer'
 
 
 class Eduction extends React.Component {
+
+  constructor() {
+    super();
+  }
+
 
   render() {
     return (
@@ -31,6 +37,7 @@ class Eduction extends React.Component {
         <br/>
 
         <Container
+          width={this.props.width}
           thumbnail={Uni}
           title="University of Bristol"
           subTitle="Computer Science, MEng (1st)"
@@ -58,12 +65,13 @@ class Eduction extends React.Component {
 
 
         <Container
+          width={this.props.width}
           thumbnail={School}
           title="Nailsea Six Form"
-          subTitle={
+          subTitle={ (this.props.width > 750) ?
               <div class="flex flex-align-items-start l-spacing flex-align-items-centre">A Levels (A*, A, B, C) &nbsp;
                 <div class="flex flex-column" style={{fontSize : '10px'}}>- Maths, Biology, Further Maths, Chemistry</div>
-              </div>
+              </div> : "A Levels (A*, A, B, C)"
           }
           date="2011 - 2013"
           location="Nailsea, UK"
@@ -73,6 +81,7 @@ class Eduction extends React.Component {
 
 
         <Container
+          width={this.props.width}
           thumbnail={School}
           title="Nailsea School"
           subTitle="GCSEs (A*, 4As, 3Bs)"
@@ -94,10 +103,25 @@ class Eduction extends React.Component {
         <br/>
 
         <Container
+          width={this.props.width}
+          thumbnail={TapBooks}
+          title="Quinn Blackwell Media"
+          subTitle="Technical Director"
+          date="2017 - Current"
+          location="Bristol, UK"
+          skills = {["Swift", "Python", "Agile", "TDD", "Application Architecture"]}
+          description="Leading a small team of developers, with the objective to create a new audio and reading book platform on iOS.
+                       The company is in the process of obtaining seed funding and we are currently preparing to pitch to investors."
+        />
+
+        <br/>
+
+        <Container
+          width={this.props.width}
           thumbnail={Uni}
           title="University of Bristol"
           subTitle="Mobile Applications Developer"
-          date="2014 - 2015 "
+          date="2015 - 2016 "
           location="Bristol, UK"
           skills = {["HTML", "CSS", "JavaScript"]}
           description="Created a cross-platform mobile web application for new students to plan and organise social activities.
@@ -107,11 +131,13 @@ class Eduction extends React.Component {
         <br/>
 
         <Container
+          width={this.props.width}
           thumbnail={Imperial}
           title="Imperial Tobacco"
           subTitle="Marketing Internship"
-          date="July, 2014"
+          date="July, 2015"
           location="New York, USA"
+          skills = {["Design", "Creativity"]}
           description="Undertook market research, worked on marketing and contributed to an advertising campaign as part of a potential new brand launch in the United States.
                   This experience, as part of an acquisition of another company, greatly developed my inter-personal and research skills."
         />
@@ -120,11 +146,13 @@ class Eduction extends React.Component {
 
 
         <Container
+          width={this.props.width}
           thumbnail={EE}
           title="Everything Everywhere"
           subTitle="Technology & Sales Internship"
-          date="August, 2013"
+          date="August, 2014 "
           location="Avon, UK"
+          skills = {["Cooperate", "Client-Facing", "Negotiation"]}
           description="I spent time visiting SMEs as part of a Sales team, approaching both current and new EE corporate customers.
                   The role required liaising with clients in a professional and persuasive manner.
                   I also worked on beta tested new phones, reviewing the functionality, usability and any basic security flaws.

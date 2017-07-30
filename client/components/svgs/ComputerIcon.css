@@ -6,7 +6,7 @@
 .ComputerIcon .svg .path {
     stroke-dasharray: 4000;
     stroke-dashoffset: 4000;
-    animation: LightBulb 5s linear forwards;
+    animation: LightBulb 7s linear forwards;
 }
 
 
@@ -16,3 +16,81 @@
     }
 }
 
+.fade-in
+{
+    display: block;
+
+    -webkit-animation: fadeInFromNone 5s ease-out;
+    -moz-animation: fadeInFromNone 5s ease-out;
+    -o-animation: fadeInFromNone 5s ease-out;
+    animation: fadeInFromNone 5s ease-out;
+}
+
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}

@@ -6,7 +6,7 @@
 .SketchIcon .svg .path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: SketchIcon 15s linear forwards;
+    animation: SketchIcon 21s linear forwards;
 }
 
 @keyframes SketchIcon {

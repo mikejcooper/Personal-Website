@@ -1,0 +1,14 @@
+.SoftwareDeveloper {
+    height: 20vh;
+}
+
+.SoftwareDeveloper .font-title{
+    font-size: calc(3vw + 3vh);
+    font-family: "LiSong Pro";
+    font-weight: 300;
+    color: black;
+
+}
+
+
+

@@ -1,16 +1,14 @@
-.SoftwareDeveloper .svg {
-    display: flex;
-    fill: #787f6a;
+.SoftwareDeveloper {
+    height: 20vh;
 }
 
-.SoftwareDeveloper .svg .path {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: SoftwareDeveloper 15s linear forwards;
+.SoftwareDeveloper .font-title{
+    font-size: calc(3vw + 3vh);
+    font-family: "LiSong Pro";
+    font-weight: 300;
+    color: black;
+
 }
 
-@keyframes SoftwareDeveloper {
-    to {
-        stroke-dashoffset: 0;
-    }
-}
+
+

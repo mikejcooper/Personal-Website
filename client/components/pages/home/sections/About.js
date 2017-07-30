@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import css from './About.css'
 import me from 'imgs/me.png'
+import AboutAnimation from './AboutAnimation'
+
 
 class About extends React.Component {
 
@@ -46,20 +48,52 @@ class About extends React.Component {
               </div>
               <div class="flex flex-column stretch-width  ">
 
-                <div class="info-caption flex "> I'm a technically-minded, detail oriented software engineer passionate about combining functional code with beautiful design.</div>
+                <div class="info-caption flex "> I'm a technically-minded, detail oriented software engineer passionate about combining technical challenges with functional code and creative design.</div>
 
                 <br/>
 
 
-                <div class="info-description flex flex-row ">
-                  I'm a fourth year student at Northeastern University in Boston studying computer science and interaction design.
-                  I have experience developing and designing software for the web, from simple landing pages to progressive web applications.
-                    I strive to create software that not only functions efficiently under the hood, but also provides intuitive, pixel-perfect user experiences.
+                <div class="info-description flex flex-column ">
 
-                  I love learning new and better ways to create seamless user experiences with clean, efficient, and scalable code.
-                    I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share their
-                    knowledge as much as I want to learn. At the end of the day, my primary goal is to create something beautiful with people that bring out the best in me.
-                  When I'm not in front of a computer screen, I'm probably snowboarding, traveling, petting dogs, or learning a new song on my uke.
+                  <AboutAnimation
+                    right={true}
+                    width="75%"
+                  >
+                    <div>
+                      I'm a fourth year student at <b>Bristol University</b> studying computer science.
+                      I have experience developing and designing software for the <b>web</b> and <b>mobile</b>, from simple landing pages to progressive web applications.
+                    </div>
+
+                  </AboutAnimation>
+
+
+                  <br/>
+
+                  <AboutAnimation
+                    right={true}
+                    width="85%"
+                  >
+                    <div>
+                      I strive to create software that not only functions efficiently under the hood, but also provides intuitive user experiences.
+                      I'm continuously learning new and better ways to create seamless user experiences with clean, <b>efficient</b>, and <b>scalable</b> code.
+                    </div>
+                  </AboutAnimation>
+
+                  <br/>
+
+
+                  <AboutAnimation
+                    right={true}
+                    width="95%"
+                  >
+                    <div>
+                      At the end of the day, my primary goal is to work on challenging projects and create something useful.
+                      And when I'm not in front of a computer screen, I'm probably <b>skiing</b>, travelling, eating, or playing <b>korfball</b>.
+                    </div>
+
+                  </AboutAnimation>
+
+
                 </div>
 
 

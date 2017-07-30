@@ -7,14 +7,14 @@
 .LightBulb .svg .path {
     stroke-dasharray: 2000;
     stroke-dashoffset: 2000;
-    animation: LightBulb 3s linear forwards;
+    animation: LightBulb 5s linear forwards;
 }
 
 .LightBulb .svg .yellow {
     stroke-dasharray: 2000;
     stroke-dashoffset: 2000;
 
-    animation: LightBulb 2s linear forwards;
+    animation: LightBulb 5s linear forwards;
     animation-delay: 3s;
     -webkit-animation-delay:3s;
 

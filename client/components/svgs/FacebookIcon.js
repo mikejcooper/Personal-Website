@@ -2,7 +2,7 @@ import React from 'react';
 
 const FacebookIcon = () => {
   return (
-    <div class="FacebookIcon">
+    <div class="FacebookIcon"  style={{height:'100%', width: '100%'}}>
 
       <svg class="svg" height='100%' width='100%' viewBox="0 0 96.124 96.123" >
         <g>

@@ -17,59 +17,59 @@ const ComputerIcon = () => {
             <polygon id="Path-10" stroke="#000000" points="36.0626796 614 1301.92258 614 1301.92258 57 33.3 57"></polygon>
 
 
-            <text class="path" id="axios.get(&quot;http://jo" fontFamily="Menlo-Regular, Menlo" fontSize="35" fontWeight="normal" letterSpacing="1.16666651">
-              <tspan x="79.4903226" y="166" fill="#FFFFFF">axios</tspan>
-              <tspan x="190.682542" y="166" letterSpacing="1.1342591" fill="#D0011B">.</tspan>
-              <tspan x="212.888578" y="166" letterSpacing="1.1342591" fill="#66D9EF">get</tspan>
-              <tspan x="279.506688" y="166" letterSpacing="1.1342591" fill="#FFFFFF">(</tspan>
-              <tspan x="301.712724" y="166" letterSpacing="1.1342591" fill="#E6DB74">"http://job.requests"</tspan>
-              <tspan x="768.039489" y="166" letterSpacing="1.1342591" fill="#FFFFFF">, meta)</tspan>
-              <tspan x="923.481745" y="166" letterSpacing="1.1342591" fill="#000000"></tspan>
-              <tspan x="79.4903226" y="216.08" letterSpacing="1.1342591" fill="#000000">		</tspan>
-              <tspan x="135.490323" y="216.08" letterSpacing="1.1342591" fill="#D0011B">.</tspan>
-              <tspan x="157.696359" y="216.08" letterSpacing="1.1342591" fill="#66D9EF">then</tspan>
-              <tspan x="246.520505" y="216.08" letterSpacing="1.1342591" fill="#FFFFFF">((</tspan>
-              <tspan x="290.932578" y="216.08" letterSpacing="1.1342591" fill="#FD9720">response</tspan>
-              <tspan x="468.580869" y="216.08" letterSpacing="1.1342591" fill="#FFFFFF">) =&gt; {'{'} </tspan>
-              <tspan x="601.817088" y="216.08" letterSpacing="1.1342591" fill="#000000"></tspan>
-              <tspan x="79.4903226" y="266.16" letterSpacing="1.1342591" fill="#000000">			</tspan>
-              <tspan x="163.490323" y="266.16" letterSpacing="1.1342591" fill="#66D9EF">let</tspan>
-              <tspan x="230.108432" y="266.16" letterSpacing="1.1342591" fill="#000000"> </tspan>
-              <tspan x="252.314468" y="266.16" letterSpacing="1.1342591" fill="#FFFFFF">offers</tspan>
-              <tspan x="385.550687" y="266.16" letterSpacing="1.1342591" fill="#000000"> </tspan>
-              <tspan x="407.756724" y="266.16" letterSpacing="1.1342591" fill="#D0011B">=</tspan>
-              <tspan x="429.96276" y="266.16" letterSpacing="1.1342591" fill="#000000"> </tspan>
-              <tspan x="452.168796" y="266.16" letterSpacing="1.1342591" fill="#FFFFFF">response.data.companies;</tspan>
-              <tspan x="985.113671" y="266.16" letterSpacing="1.1342591" fill="#000000"></tspan>
-              <tspan x="79.4903226" y="316.24" letterSpacing="1.1342591" fill="#000000">			</tspan>
-              <tspan x="163.490323" y="316.24" letterSpacing="1.1342591" fill="#66D9EF">dispatch</tspan>
-              <tspan x="341.138614" y="316.24" letterSpacing="1.1342591" fill="#FFFFFF">( {'{'} </tspan>
-              <tspan x="429.96276" y="316.24" letterSpacing="1.1342591" fill="#E6DB74">type</tspan>
-              <tspan x="518.786906" y="316.24" letterSpacing="1.1342591" fill="#AE81FF">:</tspan>
-              <tspan x="540.992942" y="316.24" letterSpacing="1.1342591" fill="#000000"> </tspan>
-              <tspan x="563.198979" y="316.24" letterSpacing="1.1342591" fill="#FFFFFF">GOT_A_JOB,</tspan>
-              <tspan x="785.259343" y="316.24" letterSpacing="1.1342591" fill="#000000"> </tspan>
-              <tspan x="807.46538" y="316.24" letterSpacing="1.1342591" fill="#E6DB74">payload</tspan>
-              <tspan x="962.907635" y="316.24" letterSpacing="1.1342591" fill="#AE81FF">:</tspan>
-              <tspan x="985.113671" y="316.24" letterSpacing="1.1342591" fill="#FFFFFF"> offers } );</tspan>
-              <tspan x="1251.58611" y="316.24" letterSpacing="1.1342591" fill="#000000"></tspan>
-              <tspan x="79.4903226" y="366.32" letterSpacing="1.1342591" fill="#000000">		</tspan>
-              <tspan x="135.490323" y="366.32" letterSpacing="1.1342591" fill="#FFFFFF">});</tspan>
-              <tspan x="202.108432" y="366.32" letterSpacing="1.1342591" fill="#000000"></tspan>
-              <tspan x="79.4903226" y="416.4" letterSpacing="1.1342591" fill="#000000">		</tspan>
-              <tspan x="135.490323" y="416.4" letterSpacing="1.1342591" fill="#D0011B">.</tspan>
-              <tspan x="157.696359" y="416.4" letterSpacing="1.1342591" fill="#FFFFFF">catch((</tspan>
-              <tspan x="313.138614" y="416.4" letterSpacing="1.1342591" fill="#FD9720">err</tspan>
-              <tspan x="379.756724" y="416.4" letterSpacing="1.1342591" fill="#FFFFFF">) =&gt; {'{'}</tspan>
-              <tspan x="512.992942" y="416.4" letterSpacing="1.1342591" fill="#000000"></tspan>
-              <tspan x="79.4903226" y="466.48" letterSpacing="1.1342591" fill="#000000">			</tspan>
-              <tspan x="163.490323" y="466.48" letterSpacing="1.1342591" fill="#66D9EF">console</tspan>
-              <tspan x="318.932578" y="466.48" letterSpacing="1.1342591" fill="#D0011B">.</tspan>
-              <tspan x="341.138614" y="466.48" letterSpacing="1.1342591" fill="#66D9EF">log</tspan>
-              <tspan x="407.756724" y="466.48" letterSpacing="1.1342591" fill="#FFFFFF">(err);</tspan>
-              <tspan x="540.992942" y="466.48" letterSpacing="1.1342591" fill="#000000"></tspan>
-              <tspan x="79.4903226" y="516.56" letterSpacing="1.1342591" fill="#000000">	</tspan>
-              <tspan x="107.490323" y="516.56" letterSpacing="1.1342591" fill="#FFFFFF">	});</tspan>
+            <text class="fade-in" id="axios.get(&quot;http://jo" fontFamily="Menlo-Regular, Menlo" fontSize="35" fontWeight="normal" letterSpacing="1.16666651">
+              <tspan class="fade-in" x="79.4903226" y="166" fill="#FFFFFF">axios</tspan>
+              <tspan class="fade-in" x="190.682542" y="166" letterSpacing="1.1342591" fill="#D0011B">.</tspan>
+              <tspan class="fade-in" x="212.888578" y="166" letterSpacing="1.1342591" fill="#66D9EF">get</tspan>
+              <tspan class="fade-in" x="279.506688" y="166" letterSpacing="1.1342591" fill="#FFFFFF">(</tspan>
+              <tspan class="fade-in" x="301.712724" y="166" letterSpacing="1.1342591" fill="#E6DB74">"http://job.requests"</tspan>
+              <tspan class="fade-in" x="768.039489" y="166" letterSpacing="1.1342591" fill="#FFFFFF">, meta)</tspan>
+              <tspan class="fade-in" x="923.481745" y="166" letterSpacing="1.1342591" fill="#000000"></tspan>
+              <tspan class="fade-in" x="79.4903226" y="216.08" letterSpacing="1.1342591" fill="#000000">		</tspan>
+              <tspan class="fade-in" x="135.490323" y="216.08" letterSpacing="1.1342591" fill="#D0011B">.</tspan>
+              <tspan class="fade-in" x="157.696359" y="216.08" letterSpacing="1.1342591" fill="#66D9EF">then</tspan>
+              <tspan class="fade-in" x="246.520505" y="216.08" letterSpacing="1.1342591" fill="#FFFFFF">((</tspan>
+              <tspan class="fade-in" x="290.932578" y="216.08" letterSpacing="1.1342591" fill="#FD9720">response</tspan>
+              <tspan class="fade-in" x="468.580869" y="216.08" letterSpacing="1.1342591" fill="#FFFFFF">) =&gt; {'{'} </tspan>
+              <tspan class="fade-in" x="601.817088" y="216.08" letterSpacing="1.1342591" fill="#000000"></tspan>
+              <tspan class="fade-in" x="79.4903226" y="266.16" letterSpacing="1.1342591" fill="#000000">			</tspan>
+              <tspan class="fade-in" x="163.490323" y="266.16" letterSpacing="1.1342591" fill="#66D9EF">let</tspan>
+              <tspan class="fade-in" x="230.108432" y="266.16" letterSpacing="1.1342591" fill="#000000"> </tspan>
+              <tspan class="fade-in" x="252.314468" y="266.16" letterSpacing="1.1342591" fill="#FFFFFF">offers</tspan>
+              <tspan class="fade-in" x="385.550687" y="266.16" letterSpacing="1.1342591" fill="#000000"> </tspan>
+              <tspan class="fade-in" x="407.756724" y="266.16" letterSpacing="1.1342591" fill="#D0011B">=</tspan>
+              <tspan class="fade-in" x="429.96276" y="266.16" letterSpacing="1.1342591" fill="#000000"> </tspan>
+              <tspan class="fade-in" x="452.168796" y="266.16" letterSpacing="1.1342591" fill="#FFFFFF">response.data.companies;</tspan>
+              <tspan class="fade-in" x="985.113671" y="266.16" letterSpacing="1.1342591" fill="#000000"></tspan>
+              <tspan class="fade-in" x="79.4903226" y="316.24" letterSpacing="1.1342591" fill="#000000">			</tspan>
+              <tspan class="fade-in" x="163.490323" y="316.24" letterSpacing="1.1342591" fill="#66D9EF">dispatch</tspan>
+              <tspan class="fade-in" x="341.138614" y="316.24" letterSpacing="1.1342591" fill="#FFFFFF">( {'{'} </tspan>
+              <tspan class="fade-in" x="429.96276" y="316.24" letterSpacing="1.1342591" fill="#E6DB74">type</tspan>
+              <tspan class="fade-in" x="518.786906" y="316.24" letterSpacing="1.1342591" fill="#AE81FF">:</tspan>
+              <tspan class="fade-in" x="540.992942" y="316.24" letterSpacing="1.1342591" fill="#000000"> </tspan>
+              <tspan class="fade-in" x="563.198979" y="316.24" letterSpacing="1.1342591" fill="#FFFFFF">GOT_A_JOB,</tspan>
+              <tspan class="fade-in" x="785.259343" y="316.24" letterSpacing="1.1342591" fill="#000000"> </tspan>
+              <tspan class="fade-in" x="807.46538" y="316.24" letterSpacing="1.1342591" fill="#E6DB74">payload</tspan>
+              <tspan class="fade-in" x="962.907635" y="316.24" letterSpacing="1.1342591" fill="#AE81FF">:</tspan>
+              <tspan class="fade-in" x="985.113671" y="316.24" letterSpacing="1.1342591" fill="#FFFFFF"> offers } );</tspan>
+              <tspan class="fade-in" x="1251.58611" y="316.24" letterSpacing="1.1342591" fill="#000000"></tspan>
+              <tspan class="fade-in" x="79.4903226" y="366.32" letterSpacing="1.1342591" fill="#000000">		</tspan>
+              <tspan class="fade-in" x="135.490323" y="366.32" letterSpacing="1.1342591" fill="#FFFFFF">});</tspan>
+              <tspan class="fade-in" x="202.108432" y="366.32" letterSpacing="1.1342591" fill="#000000"></tspan>
+              <tspan class="fade-in" x="79.4903226" y="416.4" letterSpacing="1.1342591" fill="#000000">		</tspan>
+              <tspan class="fade-in" x="135.490323" y="416.4" letterSpacing="1.1342591" fill="#D0011B">.</tspan>
+              <tspan class="fade-in" x="157.696359" y="416.4" letterSpacing="1.1342591" fill="#FFFFFF">catch((</tspan>
+              <tspan class="fade-in" x="313.138614" y="416.4" letterSpacing="1.1342591" fill="#FD9720">err</tspan>
+              <tspan class="fade-in" x="379.756724" y="416.4" letterSpacing="1.1342591" fill="#FFFFFF">) =&gt; {'{'}</tspan>
+              <tspan class="fade-in" x="512.992942" y="416.4" letterSpacing="1.1342591" fill="#000000"></tspan>
+              <tspan class="fade-in" x="79.4903226" y="466.48" letterSpacing="1.1342591" fill="#000000">			</tspan>
+              <tspan class="fade-in" x="163.490323" y="466.48" letterSpacing="1.1342591" fill="#66D9EF">console</tspan>
+              <tspan class="fade-in" x="318.932578" y="466.48" letterSpacing="1.1342591" fill="#D0011B">.</tspan>
+              <tspan class="fade-in" x="341.138614" y="466.48" letterSpacing="1.1342591" fill="#66D9EF">log</tspan>
+              <tspan class="fade-in" x="407.756724" y="466.48" letterSpacing="1.1342591" fill="#FFFFFF">(err);</tspan>
+              <tspan class="fade-in" x="540.992942" y="466.48" letterSpacing="1.1342591" fill="#000000"></tspan>
+              <tspan class="fade-in" x="79.4903226" y="516.56" letterSpacing="1.1342591" fill="#000000">	</tspan>
+              <tspan class="fade-in" x="107.490323" y="516.56" letterSpacing="1.1342591" fill="#FFFFFF">	});</tspan>
             </text>
             <path d="M555.358065,817 L778.253873,817" id="Path-11" stroke="#979797"></path>
             <path d="" id="Path-12" stroke="#979797"></path>

@@ -1,14 +1,11 @@
 import React from 'react';
-// import { IndexLink, Link } from 'react-router';
 import { connect } from "react-redux";
-import NavigationBarSearch from './NavigationBarSearch';
 import { pageScrolling } from 'actions/navBarActions'
 import css from './NavigationBar.css';
 
 import Scroll from 'react-scroll' ;
 
 var Link       = Scroll.Link;
-
 var scrollSpy  = Scroll.scrollSpy;
 
 
@@ -19,11 +16,10 @@ class NavigationBar extends React.Component {
     super()
     this.state = {
       ScrollState: 1,
-      searching: false
     };
     this.handleScroll = this.handleScroll.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
   }
+
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
     scrollSpy.update();
@@ -34,19 +30,6 @@ class NavigationBar extends React.Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
-  openSignInModal() {
-    this.props.dispatch(openSignInModal());
-  }
-
-  openSignUpModal() {
-    this.props.dispatch(openSignUpModal());
-  }
-
-  onSubmit() {
-    let tags = this.refs.searchInput.value.split(',');
-    this.props.dispatch(searchWithSearchBar(tags));
-  }
-
   handleScrollAction(event){
     var scrollPosition = event.target.body.scrollTop;
     var pageHeight = window.innerHeight - 50;
@@ -55,14 +38,6 @@ class NavigationBar extends React.Component {
 
   handleScroll(event) {
     this.handleScrollAction(event);
-    var scrollTopSetPoint = 800;
-    var targetOpacity = 0.5;
-    var scrollTop = event.target.body.scrollTop;
-    // if(scrollTop > scrollTopSetPoint) {
-    //   this.setState({ ScrollState: targetOpacity });
-    // } else {
-    //   this.setState({ ScrollState: Math.max(1 - (scrollTop)/scrollTopSetPoint , targetOpacity).toString()});
-    // }
   }
 
   render() {
@@ -73,12 +48,11 @@ class NavigationBar extends React.Component {
     return (
         <nav class="navbar flex flex-align-items-centre flex-space-between navbar-fixed-top" style = {navOpacity} onScroll={this.handleScroll.bind(this)}>
           <div class="logo-container flex flex-align-items-centre flex-justify-start stretch-height">
-            {/*<a href="/#"><img class="logo resize-img" src="http://localhost:2000/images/logo_text.png"></img></a>*/}
           </div>
 
-          <div class="centre flex flex-align-items-centre stretch-height titles name no-line">
+          <div class="centre flex flex-align-items-centre stretch-height titles name no-line ">
             <Link activeClass="black-force" class="no-line text-color" to="Home" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
-              <div class="cursor"> MIKE COOPER</div>
+              <div class="cursor name-nav"> MIKE COOPER</div>
             </Link>
           </div>
 
@@ -97,13 +71,6 @@ class NavigationBar extends React.Component {
               <Link activeClass="black-force" class="flex flex-column flex-justify-centre no-line margin-left-10 text-color" to="Contact" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
                 <div class="cursor"> Contact </div>
               </Link>
-
-              {/*<div class="nav-div min-div"><Link class="no-line" ><h4 class="cursor">About</h4></Link></div>*/}
-              {/*<div class="nav-div min-div"><Link class="no-line" ><h4 class="cursor">Projects</h4></Link></div>*/}
-              {/*<div class="nav-div min-div"><Link class="no-line" ><h4 class="cursor">Contact</h4></Link></div>*/}
-              {/*<div class="nav-div flex-centre min-div"><a onClick={this.openSignUpModal.bind(this)}> <SignUpButton/> </a></div>*/}
-              {/*<div class="nav-div flex-centre"><a class="no-line" href="/signup"> <span class="bullet">•••</span> </a></div>*/}
-
             </div>
           </div>
         </nav>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const GithubIcon = () => {
   return (
-    <div class="GithubIcon">
+    <div class="GithubIcon"  style={{height:'100%', width: '100%'}}>
 
       <svg class="svg" height='100%' width='100%' viewBox="0 0 450 450" >
         <g>

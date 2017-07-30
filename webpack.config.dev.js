@@ -62,25 +62,4 @@ export default {
       imgs: 'server/imgs'
     },
   },
-  imageWebpackLoader: {
-    mozjpeg: {
-      quality: 65,
-      progressive: true,
-      interlaced: true
-    },
-    pngquant: {
-      quality: "65-90",
-      speed: 4
-    },
-    svgo: {
-      plugins: [
-        {
-          removeViewBox: false
-        },
-        {
-          removeEmptyAttrs: false
-        }
-      ]
-    }
-  }
 }

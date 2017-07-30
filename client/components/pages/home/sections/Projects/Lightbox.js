@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import css from './Lightbox.css'
 import Lightbox from 'react-image-lightbox';
 
 export default class LightboxExample extends Component {
@@ -23,12 +24,7 @@ export default class LightboxExample extends Component {
 
     let CoverStyle = {
       backgroundImage: 'url(' + this.props.coverImage + ')',
-      width: '100%',
-      height: '100%',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center center',
-      cursor:'zoom-in',
+
   };
 
     let StretchStyle = {
@@ -38,7 +34,7 @@ export default class LightboxExample extends Component {
 
 
     return (
-      <div style={CoverStyle}>
+      <div class="Lightbox" style={CoverStyle}>
         <div
           style={StretchStyle}
           onClick={() => this.setState({ isOpen: true })}>

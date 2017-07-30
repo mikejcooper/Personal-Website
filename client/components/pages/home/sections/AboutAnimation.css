@@ -1,6 +1,6 @@
 
 .left-in {
-    transform: translateX(-8vw);
+    transform: translateX(-4vw);
     animation: left-in 1.4s ease forwards;
 }
 .left-in:nth-child(odd) {
@@ -8,13 +8,13 @@
 }
 
 @keyframes left-in {
-    to { transform: translateX(8vw); }
+    to { transform: translateX(4vw); }
 }
 
 
 
 .left-out {
-    transform: translateX(8vw);
+    transform: translateX(4vw);
     animation: left-out 1.4s ease forwards;
 }
 .left-out:nth-child(odd) {
@@ -22,13 +22,16 @@
 }
 
 @keyframes left-out {
-    to { transform: translateX(-8vw); }
+    to { transform: translateX(-4vw); }
 }
 
 
 .left-box{
     position: relative;
-    left: -8vw;
+    left: -4vw;
+
+    font-family: Freya;
+    font-size: 14px;
 
     border-style: solid;
     border-width: 1px;
@@ -36,10 +39,56 @@
     color: #e2e2e2;
 
     min-width: 200px;
-    width:70%;
     padding: 5px;
     margin-bottom: 5px;
 }
+
+
+
+.right-in {
+    transform: translateX(4vw);
+    animation: right-in 1.4s ease forwards;
+}
+.right-in:nth-child(odd) {
+    animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes right-in {
+    to { transform: translateX(-4vw); }
+}
+
+
+
+.right-out {
+    transform: translateX(-4vw);
+    animation: right-out 1.4s ease forwards;
+}
+.right-out:nth-child(odd) {
+    animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes right-out {
+    to { transform: translateX(4vw); }
+}
+
+
+.right-box{
+    position: relative;
+    right: -4vw;
+
+    font-family: Freya;
+    font-size: 14px;
+
+    border-style: solid;
+    border-width: 1px;
+    background-color: #3f4244;
+    color: #e2e2e2;
+
+    min-width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
 
 
 

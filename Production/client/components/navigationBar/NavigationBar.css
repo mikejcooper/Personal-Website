@@ -1,0 +1,110 @@
+/*Variables*/
+
+
+.navbar{
+  height: 50px;
+
+  background-color: WHITE;
+
+  transition: opacity .35s ease-out;
+  -moz-transition: opacity .35s ease-out;
+  -webkit-transition: opacity .35s ease-out;
+}
+
+
+.navbar:hover { /*Overide inline CSS for opacity*/
+  opacity:1.0 !important;
+  transition: opacity .35s ease-in-out;
+  -moz-transition: opacity .35s ease-in-out;
+  -webkit-transition: opacity .35s ease-in-out;
+}
+
+
+.name{
+  font-weight: 200;
+  padding:5px;
+}
+
+.navbar .text-color{
+  color: #696969;
+}
+
+.navbar .text-color:hover{
+  color: #080808;
+}
+
+.black-force{
+  color: black!important;
+}
+
+/*------------------------------------------------------*/
+
+.navbar .logo-container{
+  order:1;
+  flex: 1;
+}
+
+.logo-container .logo{
+  padding:10px;
+}
+
+/*------------------------------------------------------*/
+
+.navbar .centre{
+  order:2;
+
+}
+
+/*------------------------------------------------------*/
+
+.navbar .right-nav-container{
+  order:3;
+  flex: 1;
+}
+
+.right-nav-container .right-nav{
+  margin-right: 14px;
+}
+
+.right-nav h4{
+  color: black;
+  font-size: 12px;
+  color:#333;
+
+}
+
+.navbar .no-line{
+  text-decoration: none;
+}
+
+.right-nav .sign-up{
+  display: block;
+  max-width: 100%;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+  padding:5px;
+}
+
+.right-nav .nav-div{
+  margin:3px;  /* and that, will result in a 10px gap */
+  height: 100%;
+}
+
+.right-nav .min-div{
+  min-width: 60px;
+  height: 100%;
+}
+
+.right-nav .bullet {
+  color: white;
+}
+
+
+.margin-left-10{
+  margin-left: 20px;
+}
+
+
+
+

@@ -22,23 +22,25 @@ class TwoSquares extends React.Component {
 
             <OneSquaresProject
 
-              style={{maxWidth: "320px", height: "250px"}}
+              style={{maxWidth: "320px", height: "300px"}}
               description={this.props.description1}
               images={this.props.images1}
               imagesCaptions={this.props.imagesCaptions1}
               coverImage={this.props.coverImage1}
               skills={this.props.skills1}
+              github={this.props.github1}
             />
 
 
             <OneSquaresProject
 
-              style={{maxWidth: "320px", height: "250px"}}
+              style={{maxWidth: "320px", height: "300px"}}
               description={this.props.description2}
               images={this.props.images2}
               imagesCaptions={this.props.imagesCaptions2}
               coverImage={this.props.coverImage2}
               skills={this.props.skills2}
+              github={this.props.github2}
             />
 
         </div>

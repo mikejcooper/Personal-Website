@@ -1,0 +1,8 @@
+.TwoSquares{
+    max-width: 650px;
+    height: 330px;
+}
+
+.TwoSquares .square{
+    width: 50%;
+}

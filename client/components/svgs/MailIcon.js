@@ -2,7 +2,7 @@ import React from 'react';
 
 const MailIcon = () => {
   return (
-    <div class="MailIcon">
+    <div class="MailIcon" style={{height:'100%', width: '100%'}}>
 
       <svg class="svg" height='100%' width='100%' viewBox="0 0 512.001 512.001" >
         <g>

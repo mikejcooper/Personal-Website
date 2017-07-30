@@ -1,16 +1,13 @@
 import React from 'react';
 import css from './Home.css'
 import { connect } from 'react-redux';
-import Lightbox from './sections/Projects/Lightbox'
 import AboutSection from './sections/About'
 import EducationSection from './sections/Eduction'
 import WelcomeSection from './sections/Welcome'
 import ContactSection from './sections/Contact'
 import ProjectSection from './sections/Projects'
-import FourSquaresProject from './sections/Projects/TwoSquares'
-import OneSquaresProject from './sections/Projects/OneSquare'
+import ProjectMobileSection from './sections/ProjectsMobile'
 
-import iPhoneMocks from 'imgs/iPhone_mocks.png'
 
 
 import Scroll from 'react-scroll' ;
@@ -71,12 +68,14 @@ class Home extends React.Component {
       overflow: 'hidden',
     };
 
+
+
     return (
       <div class="home">
 
         <Element name="Home">
           <div class="page p1" style={containerStyle}>
-            <WelcomeSection/>
+            <WelcomeSection width={this.state.width}/>
           </div>
         </Element>
 
@@ -86,14 +85,17 @@ class Home extends React.Component {
           </div>
 
           <div class="page p3 flex flex-justify-centre">
-            <EducationSection/>
+            <EducationSection width={this.state.width}/>
           </div>
         </Element>
 
 
         <Element name="Projects">
-          <div id="about-us" class="page p3">
-            <ProjectSection/>
+          <div id="about-us" class="page p4">
+            {(this.state.width >  750) ?
+              <ProjectSection/>
+            :
+              <ProjectMobileSection width={this.state.width}/>}
           </div>
         </Element>
 

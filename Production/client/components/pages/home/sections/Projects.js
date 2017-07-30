@@ -159,7 +159,7 @@ var Projects = function (_React$Component) {
           images1: [_lawWebsite2.default],
           imagesCaptions1: ["Website"],
           coverImage1: _lawWebsite2.default,
-          skills1: ["ReactJS", "ES6", "AWS"],
+          skills1: ["ReactJS", "HTML", "ES6", "AWS"],
 
           description2: "University project whereby I had to design, build and render 3D scenes. I also went on to build a Raytracer in C++ that could render much simpler versions of 3D scenes like the one created in the image above.",
           images2: [_mayaRender2.default, _mayaRender2.default],

@@ -2,7 +2,7 @@
 
   FROM node:7.4.0
 
-  WORKDIR /
+  WORKDIR /usr/src/app/
 
   COPY package.json .
 

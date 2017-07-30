@@ -1,4 +1,11 @@
 
+### Docker to AWS UPDATE
+
+    1. REMOVE service (first)
+    2. Add new service with new/updated task
+
+------------------------------------------------
+
 
 ## Docker
 

@@ -96,7 +96,7 @@ class Projects extends React.Component {
           images1={[LawWebsiteImg]}
           imagesCaptions1={["Website"]}
           coverImage1={LawWebsiteImg}
-          skills1={["ReactJS", "ES6", "AWS"]}
+          skills1={["ReactJS", "HTML", "ES6", "AWS"]}
 
 
           description2={

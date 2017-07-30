@@ -5,46 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a55e0e85-b70c-4736-b12b-ea3add882c79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Projects.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Config-Constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/imgs/background.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/imgs/lawWebsite.png" afterPath="$PROJECT_DIR$/server/imgs/lawWebsite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/navigationBar/NavigationBar.css" afterPath="$PROJECT_DIR$/client/components/navigationBar/NavigationBar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/navigationBar/NavigationBar.js" afterPath="$PROJECT_DIR$/client/components/navigationBar/NavigationBar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/Home.css" afterPath="$PROJECT_DIR$/client/components/pages/home/Home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/Home.js" afterPath="$PROJECT_DIR$/client/components/pages/home/Home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/About.css" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/About.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/About.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/About.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/AboutAnimation.css" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/AboutAnimation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/AboutAnimation.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/AboutAnimation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Containers/EduExpContainer.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Containers/EduExpContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Containers/SkillContainer.css" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Containers/SkillContainer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Containers/SkillsContainer.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Containers/SkillsContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Eduction.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Eduction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AwsDockerCheatSheet.md" afterPath="$PROJECT_DIR$/AwsDockerCheatSheet.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Production/Dockerfile" afterPath="$PROJECT_DIR$/Production/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Production/client/components/pages/home/sections/Projects.js" afterPath="$PROJECT_DIR$/Production/client/components/pages/home/sections/Projects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Production/package.json" afterPath="$PROJECT_DIR$/Production/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Projects.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/Lightbox.css" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/Lightbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/Lightbox.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/Lightbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/OneSquare.css" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/OneSquare.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/OneSquare.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/OneSquare.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/TwoSquares.css" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/TwoSquares.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/TwoSquares.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Projects/TwoSquares.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/ProjectsMobile.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/ProjectsMobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/pages/home/sections/Welcome.js" afterPath="$PROJECT_DIR$/client/components/pages/home/sections/Welcome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/ComputerIcon.css" afterPath="$PROJECT_DIR$/client/components/svgs/ComputerIcon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/ComputerIcon.js" afterPath="$PROJECT_DIR$/client/components/svgs/ComputerIcon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/FacebookIcon.js" afterPath="$PROJECT_DIR$/client/components/svgs/FacebookIcon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/GithubIcon.js" afterPath="$PROJECT_DIR$/client/components/svgs/GithubIcon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/LightBulb.css" afterPath="$PROJECT_DIR$/client/components/svgs/LightBulb.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/MailIcon.js" afterPath="$PROJECT_DIR$/client/components/svgs/MailIcon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/SketchIcon.css" afterPath="$PROJECT_DIR$/client/components/svgs/SketchIcon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/SoftwareDeveloper.css" afterPath="$PROJECT_DIR$/client/components/svgs/SoftwareDeveloper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/svgs/SoftwareDeveloper.js" afterPath="$PROJECT_DIR$/client/components/svgs/SoftwareDeveloper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/index.html" afterPath="$PROJECT_DIR$/server/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.dev.js" afterPath="$PROJECT_DIR$/webpack.config.dev.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,26 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Projects.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectsMobile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/ProjectsMobile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -115,34 +61,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Production/server/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AwsDockerCheatSheet.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AwsDockerCheatSheet.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/index.js">
+      <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="98" column="38" lean-forward="false" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EduExpContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Containers/EduExpContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="144" column="28" lean-forward="false" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Welcome.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Welcome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectsMobile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/ProjectsMobile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,14 +123,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/index.js">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/pages/home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="954">
+              <caret line="93" column="43" lean-forward="false" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -268,12 +232,12 @@
         <option value="$PROJECT_DIR$/client/components/pages/home/sections/Containers/SkillsContainer.js" />
         <option value="$PROJECT_DIR$/Production/package.json" />
         <option value="$PROJECT_DIR$/Production/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/client/components/pages/home/sections/Projects.js" />
         <option value="$PROJECT_DIR$/client/components/pages/home/sections/ProjectsMobile.js" />
         <option value="$PROJECT_DIR$/Production/server/index.html" />
         <option value="$PROJECT_DIR$/server/index.html" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/components/pages/home/sections/Projects.js" />
         <option value="$PROJECT_DIR$/AwsDockerCheatSheet.md" />
       </list>
     </option>
@@ -810,12 +774,12 @@
       <workItem from="1500966854934" duration="1782000" />
       <workItem from="1501003372544" duration="12316000" />
       <workItem from="1501088013456" duration="2915000" />
-      <workItem from="1501173222808" duration="17639000" />
+      <workItem from="1501173222808" duration="19073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401234000" />
+    <option name="totallyTimeSpent" value="402668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,14 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/pages/home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="93" column="43" lean-forward="false" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/components/pages/home/Home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1107,22 +1063,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Containers/EduExpContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="144" column="28" lean-forward="true" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Welcome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,22 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/ProjectsMobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Production/server/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1281,16 +1205,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,16 +1215,8 @@
         <state relative-caret-position="285">
           <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,15 +1231,73 @@
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/pages/home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="93" column="43" lean-forward="false" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Containers/EduExpContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="144" column="28" lean-forward="false" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Welcome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/ProjectsMobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/pages/home/sections/Projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="98" column="38" lean-forward="false" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AwsDockerCheatSheet.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
